@@ -1,147 +1,336 @@
 [
   {
-    "list": {
-      "knight's_tour": "Knight’s tour problem",
-      "n_queens": "N Queens Problem"
-    },
+    "list": [
+      {
+        "key": "knight's_tour",
+        "title": "Knight’s tour problem"
+      },
+      {
+        "key": "n_queens",
+        "title": "N Queens Problem"
+      }
+    ],
     "name": "Backtracking",
     "zh_name": "回溯法",
     "slug": "backtracking"
   },
   {
-    "list": {
-      "affine_cipher": "Affine Cipher",
-      "caesar_cipher": "Caesar Cipher"
-    },
+    "list": [
+      {
+        "key": "affine_cipher",
+        "title": "Affine Cipher"
+      },
+      {
+        "key": "caesar_cipher",
+        "title": "Caesar Cipher"
+      }
+    ],
     "name": "Cryptography",
     "zh_name": "密码学",
     "slug": "cryptography"
   },
   {
-    "list": {
-      "catalan_number": "Catalan Number",
-      "fibonacci": "Fibonacci Sequence",
-      "integer_partition": "Integer Partition",
-      "knapsack_problem": "Knapsack Problem",
-      "longest_common_subsequence": "Longest Common Subsequence",
-      "longest_increasing_subsequence": "Longest Increasing Subsequence",
-      "longest_palindromic_subsequence": "Longest Palindromic Subsequence",
-      "max_subarray": "Maximum Subarray",
-      "max_sum_path": "Maximum Sum Path",
-      "pascal_triangle": "Pascal's Triangle",
-      "shortest_common_supersequence": "Shortest Common Supersequence",
-      "sliding_window": "Sliding Window",
-      "ugly_numbers": "Ugly Numbers"
-    },
+    "list": [
+      {
+        "key": "catalan_number",
+        "title": "Catalan Number"
+      },
+      {
+        "key": "fibonacci",
+        "title": "Fibonacci Sequence"
+      },
+      {
+        "key": "integer_partition",
+        "title": "Integer Partition"
+      },
+      {
+        "key": "knapsack_problem",
+        "title": "Knapsack Problem"
+      },
+      {
+        "key": "longest_common_subsequence",
+        "title": "Longest Common Subsequence"
+      },
+      {
+        "key": "longest_increasing_subsequence",
+        "title": "Longest Increasing Subsequence"
+      },
+      {
+        "key": "longest_palindromic_subsequence",
+        "title": "Longest Palindromic Subsequence"
+      },
+      {
+        "key": "max_subarray",
+        "title": "Maximum Subarray"
+      },
+      {
+        "key": "max_sum_path",
+        "title": "Maximum Sum Path"
+      },
+      {
+        "key": "pascal_triangle",
+        "title": "Pascal's Triangle"
+      },
+      {
+        "key": "shortest_common_supersequence",
+        "title": "Shortest Common Supersequence"
+      },
+      {
+        "key": "sliding_window",
+        "title": "Sliding Window"
+      },
+      {
+        "key": "ugly_numbers",
+        "title": "Ugly Numbers"
+      }
+    ],
     "name": "Dynamic Programming",
     "zh_name": "动态规划",
     "slug": "dp"
   },
   {
-    "list": {
-      "bellman_ford": "Bellman-Ford",
-      "bfs": "BFS",
-      "bridges": "Find-Bridges",
-      "dfs": "DFS",
-      "dls": "Depth-Limited Search",
-      "dijkstra": "Dijkstra",
-      "floyd_warshall": "Floyd-Warshall",
-      "page_rank": "PageRank Algorithm",
-      "topological_sort": "Topological-Sort",
-      "tarjan": "Tarjan"
-    },
+    "list": [
+      {
+        "key": "bellman_ford",
+        "title": "Bellman-Ford"
+      },
+      {
+        "key": "bfs",
+        "title": "BFS"
+      },
+      {
+        "key": "bridges",
+        "title": "Find-Bridges"
+      },
+      {
+        "key": "dfs",
+        "title": "DFS"
+      },
+      {
+        "key": "dls",
+        "title": "Depth-Limited Search"
+      },
+      {
+        "key": "dijkstra",
+        "title": "Dijkstra"
+      },
+      {
+        "key": "floyd_warshall",
+        "title": "Floyd-Warshall"
+      },
+      {
+        "key": "page_rank",
+        "title": "PageRank Algorithm"
+      },
+      {
+        "key": "topological_sort",
+        "title": "Topological-Sort"
+      },
+      {
+        "key": "tarjan",
+        "title": "Tarjan"
+      }
+    ],
     "name": "Graph Search",
     "zh_name": "图搜索",
     "slug": "graph_search"
   },
   {
-    "list": {
-      "job_scheduling": "Job Scheduling Problem",
-      "majority_element": "Majority Element(Boyer–Moore majority vote algorithm)"
-    },
+    "list": [
+      {
+        "key": "job_scheduling",
+        "title": "Job Scheduling Problem"
+      },
+      {
+        "key": "majority_element",
+        "title": "Majority Element(Boyer–Moore majority vote algorithm)"
+      }
+    ],
     "name": "Greedy",
     "zh_name": "贪婪算法",
     "slug": "greedy"
   },
   {
-    "list": {
-      "kruskal": "Kruskal's Algorithm",
-      "prim": "Prim's Algorithm"
-    },
+    "list": [
+      {
+        "key": "kruskal",
+        "title": "Kruskal's Algorithm"
+      },
+      {
+        "key": "prim",
+        "title": "Prim's Algorithm"
+      }
+    ],
     "name": "Minimum Spanning Tree",
     "zh_name": "最小生成树",
     "slug": "mst"
   },
   {
-    "list": {
-      "euclidean_algorithm": "Euclidean Algorithm",
-      "sieve_of_eratosthenes": "Sieve of Eratosthenes",
-      "freivalds_algorithm": "Freivalds Algorithm",
-      "miller_rabin_primality_test": "Miller-Rabin primality test"
-    },
+    "list": [
+      {
+        "key": "euclidean_algorithm",
+        "title": "Euclidean Algorithm"
+      },
+      {
+        "key": "sieve_of_eratosthenes",
+        "title": "Sieve of Eratosthenes"
+      },
+      {
+        "key": "freivalds_algorithm",
+        "title": "Freivalds Algorithm"
+      },
+      {
+        "key": "miller_rabin_primality_test",
+        "title": "Miller-Rabin primality test"
+      }
+    ],
     "name": "Number Theory",
     "zh_name": "数论",
     "slug": "number_theory"
   },
   {
-    "list": {
-      "binary_search": "Binary Search"
-    },
+    "list": [
+      {
+        "key": "binary_search",
+        "title": "Binary Search"
+      }
+    ],
     "name": "Search",
     "zh_name": "搜索",
     "slug": "search"
   },
   {
-    "list": {
-      "bucket": "Bucket Sort",
-      "bubble": "Bubble Sort",
-      "comb": "Comb Sort",
-      "counting": "Counting Sort",
-      "cycle": "Cycle Sort",
-      "heap": "Heapsort",
-      "insertion": "Insertion Sort",
-      "merge": "Merge Sort",
-      "pigeonhole": "Pigeonhole Sort",
-      "quick": "Quicksort",
-      "radix": "Radix Sort",
-      "selection": "Selection Sort",
-      "shell": "Shellsort",
-      "pancake": "Pancake Sort"
-    },
+    "list": [
+      {
+        "key": "bucket",
+        "title": "Bucket Sort"
+      },
+      {
+        "key": "bubble",
+        "title": "Bubble Sort"
+      },
+      {
+        "key": "comb",
+        "title": "Comb Sort"
+      },
+      {
+        "key": "counting",
+        "title": "Counting Sort"
+      },
+      {
+        "key": "cycle",
+        "title": "Cycle Sort"
+      },
+      {
+        "key": "heap",
+        "title": "Heapsort"
+      },
+      {
+        "key": "insertion",
+        "title": "Insertion Sort"
+      },
+      {
+        "key": "merge",
+        "title": "Merge Sort"
+      },
+      {
+        "key": "pigeonhole",
+        "title": "Pigeonhole Sort"
+      },
+      {
+        "key": "quick",
+        "title": "Quicksort"
+      },
+      {
+        "key": "radix",
+        "title": "Radix Sort"
+      },
+      {
+        "key": "selection",
+        "title": "Selection Sort"
+      },
+      {
+        "key": "shell",
+        "title": "Shellsort"
+      },
+      {
+        "key": "pancake",
+        "title": "Pancake Sort"
+      }
+    ],
     "name": "Sorting",
     "zh_name": "分类",
     "slug": "sorting"
   },
   {
-    "list": {
-      "edit_distance": "Edit Distance",
-      "knuth_morris_pratt": "KMP Substring Search",
-      "rabin_karp_algorithm": "Rabin-Karp Algorithm",
-      "suffix_array": "Suffix Array (construction & usage)",
-      "z_algorithm": "Z Algorithm"
-    },
+    "list": [
+      {
+        "key": "edit_distance",
+        "title": "Edit Distance"
+      },
+      {
+        "key": "knuth_morris_pratt",
+        "title": "KMP Substring Search"
+      },
+      {
+        "key": "rabin_karp_algorithm",
+        "title": "Rabin-Karp Algorithm"
+      },
+      {
+        "key": "suffix_array",
+        "title": "Suffix Array (construction & usage)"
+      },
+      {
+        "key": "z_algorithm",
+        "title": "Z Algorithm"
+      }
+    ],
     "name": "String",
     "zh_name": "字符",
     "slug": "string"
   },
   {
-    "list": {
-      "binary_search_tree": "Binary Search Tree",
-      "binary_tree_traversal": "Binary Tree Traversal",
-      "lowest_common_ancestor": "Lowest Common Ancestor"
-    },
+    "list": [
+      {
+        "key": "binary_search_tree",
+        "title": "Binary Search Tree"
+      },
+      {
+        "key": "binary_tree_traversal",
+        "title": "Binary Tree Traversal"
+      },
+      {
+        "key": "lowest_common_ancestor",
+        "title": "Lowest Common Ancestor"
+      }
+    ],
     "name": "Tree",
     "zh_name": "树",
     "slug": "tree"
   },
   {
-    "list": {
-      "flood_fill": "Flood Fill",
-      "cellular_automata": "Cellular Automata",
-      "create_maze": "Create Maze",
-      "magic_square": "Magic Square",
-      "stable_matching": "Stable Matching"
-    },
+    "list": [
+      {
+        "key": "flood_fill",
+        "title": "Flood Fill"
+      },
+      {
+        "key": "cellular_automata",
+        "title": "Cellular Automata"
+      },
+      {
+        "key": "create_maze",
+        "title": "Create Maze"
+      },
+      {
+        "key": "magic_square",
+        "title": "Magic Square"
+      },
+      {
+        "key": "stable_matching",
+        "title": "Stable Matching"
+      }
+    ],
     "name": "Uncategorized",
     "zh_name": "未分类",
     "slug": "slug"
