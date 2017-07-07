@@ -31,8 +31,11 @@ var walkSync = function(dir, filelist) {
       if(!results[category]) {
         results[category] = {};
       }
+      if(!results[category][key]) {
+        results[category][key] = {};
+      }
 
-      results[category][key]  = algorithm;
+      results[category][key]  = Object.assign(results[category][key], algorithm);
     }
 
     if( file === 'code.js') {
@@ -49,6 +52,7 @@ var walkSync = function(dir, filelist) {
       }
       results[category][key]['code']  = raw;
     }
+
     if (fs.statSync(dir + file).isDirectory()) {
       filelist = walkSync(dir + file + '/', filelist);
     } else {
