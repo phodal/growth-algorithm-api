@@ -15,6 +15,7 @@ var walkSync = function(dir, filelist) {
       var key = dirs[2];
 
       algorithm['name'] = firstKey;
+      algorithm['description'] = algorithm[firstKey];
       algorithm['category'] = category;
       algorithm['key'] = dirs[2];
 
