@@ -12,6 +12,7 @@ var walkSync = function(dir, filelist) {
       var firstKey = Object.keys(algorithm)[0];
       var dirs = dir.split('/');
       var category = dirs[1];
+      var key = dirs[2];
 
       algorithm['name'] = firstKey;
       algorithm['category'] = category;
@@ -27,10 +28,10 @@ var walkSync = function(dir, filelist) {
       delete algorithm['References'];
 
       if(!results[category]) {
-        results[category] = [];
+        results[category] = {};
       }
 
-      results[category].push(algorithm);
+      results[category][key]  = algorithm;
     }
     if (fs.statSync(dir + file).isDirectory()) {
       filelist = walkSync(dir + file + '/', filelist);
