@@ -34,6 +34,21 @@ var walkSync = function(dir, filelist) {
 
       results[category][key]  = algorithm;
     }
+
+    if( file === 'code.js') {
+      var raw = fs.readFileSync(dir + file, 'utf8');
+      var dirs = dir.split('/');
+      var category = dirs[1];
+      var key = dirs[2];
+
+      if(!results[category]) {
+        results[category] = {};
+      }
+      if(!results[category][key]) {
+        results[category][key] = {};
+      }
+      results[category][key]['code']  = raw;
+    }
     if (fs.statSync(dir + file).isDirectory()) {
       filelist = walkSync(dir + file + '/', filelist);
     } else {
